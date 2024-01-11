@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>forms</title>
+</head>
+<body>
+    
+    <form> 
+        <input type = "text" placeholder = "Enter Name" required>
+        <br><br>
+        <input type="email" placeholder = "Enter email" requried patter = "/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/">
+        <br><br>
+        <input type = "password" placeholder="Enter password" required minlength="5" maxlength="8">
+        <br><br>
+        <input type = " Enter contact " requried pattern="^[789]\d{9}$" placeholder="Enter contact" min="10" max="12">
+        <br><br>
+        <input type = "Date">
+        <br><br>
+        male
+        <input type = "radio" name="Gender">
+        female
+        <input type = "radio" name="Gender">
+        <br><br>
+        I agree all conditions <input type = "checkbox">
+        <br><br>
+        <textarea cols="30" rows="10" placeholder="Address"></textarea>
+        <br><br>
+        <select>
+            <option>City</option>
+            <option>Kurnool</option>
+            <option>Adoni</option>
+            <option>Hyderabad<option>
+        </select>
+        <br><br>
+
+        <button type= "submit">Register</button>
+        <button tyoe = "reset">Clear form</button>
+    </form>
+
+</body>
+</html>
